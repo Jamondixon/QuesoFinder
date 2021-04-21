@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body {
   background: radial-gradient(#e5e5e5, #f2eebe, #ca9a43)
@@ -21,12 +21,12 @@ body {
 }
 
 .card-body {
-  padding: 3rem 0 im !important;
+  padding: 1.0rem 0 im !important;
 }
 
 .card-text {
   font-size: 0.9em;
-  padding: 0.4rem 1.9rem;
+  padding: 0.4rem 1.7rem;
 }
 
 .overflow {
@@ -35,7 +35,7 @@ body {
 
 .card-img-top {
   transform: scale(1);
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
 }
 
 .card-img-top:hover {
@@ -55,6 +55,7 @@ body {
 }
 .card-restaurant {
   font-family: 'Mulish', sans-serif;
+  font-weight: 900;
 
 }
 
@@ -92,6 +93,7 @@ body {
 }
 
 .logo {
+  padding-bottom: 1em;
   font-family: Pieces NFI;
   color: #e5e5e5;
   justify-content: center;
@@ -103,12 +105,90 @@ body {
 .price {
   /* color: green; */
   padding-top: 0.4em;
-  font-style: oblique;
-  font-weight: 900;
+  font-style: normal;
+  font-weight: 300;
   font-size: 2rem;
+  text-shadow: 1px 1px black;
+  color: #e9c16a;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bi.bi-cash {
   margin-bottom: -50px;
   margin-top: -90px;
+  
 }
+
+.plate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 4rem;
+  padding-bottom: 25rem;
+  padding-top: 2rem;
+}
+
+.plate {
+  display: flex;
+  width: 62em;
+  height: 25em;
+  background: white;
+  margin: 5em;
+  text-align: left;
+  justify-content: center;
+}
+
+/* Plate Styling */
+.plate {
+  position:relative;
+  box-sizing: border-box;
+  /* padding: 33px 53px; */
+  border-radius: 30px;
+  box-shadow: inset 0 5px 3px 0 rgba(255, 255, 255, 0.5), inset 0 -5px 3px 0 rgba(0, 0, 0, 0.78), inset 3px 0 2px 0 rgba(0, 0, 0, 0.25), inset -3px 0 2px 0 rgba(0, 0, 0, 0.25), inset 0 5px 46px 0 rgba(0, 0, 0, 0.4), 0 5px 13px 0 rgba(0, 0, 0, 0.75);
+  
+}
+.plate:before {
+  content: ' ';
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 33px;
+  right: 33px;
+  bottom: 33px;
+  left: 33px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 4px 3px white, inset 0 8px 16px 4px rgba(0, 0, 0, 0.25);
+}
+
+.new-favorites {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 75px;
+  margin: 0;
+  
+}
+
+
+.card-title-2 {
+  justify-content: center;
+  font-family: Pieces NFI;
+  color: #ca9a43;
+  font-size: 0.8em;
+  padding-top: 0.4rem;
+}
+
+.card-restaurant-2 {
+  justify-content: center;
+  font-size: x-small;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.card.text-center {
+padding: 30px;
+}
+
+

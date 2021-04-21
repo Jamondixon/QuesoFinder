@@ -3,9 +3,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import QuesoCard from './QuesoCard'
 
 
-export default function QuesoContainer({ quesos, }) {
+export default function QuesoContainer({ quesos, clickAction }) {
     const displayQuesos = () => quesos.map(queso => {
-        return <QuesoCard key={queso.id} queso={queso}  />
+        return <QuesoCard key={queso.id} queso={queso}  clickAction={clickAction}/>
     })
 
 
