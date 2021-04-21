@@ -1,0 +1,86 @@
+{
+    "quesos":
+    [
+        {
+            "id": 1,
+            "restaurant": "North County",
+            "name": "Queso Fundito",
+            "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/KDziFC8LUhN0WaeG7CnYwIp36p0=/1660x934/smart/filters:no_upscale()/arc-anglerfish-arc2-prod-dmn.s3.amazonaws.com/public/7PIIC7SQDQ6R4SIKZNR3CU35QM.jpg",
+            "description": "Chorizo, pico de gallo, serranos, Chihuahua & pepper jack cheese, & scallions, served with flour tortillas and tortilla chips ",
+            "price": "$13",
+            "location": "https://www.google.com/maps/place/North+County/@39.7241751,-104.9110894,13.7z/data=!4m5!3m4!1s0x876c7c5a01d4c2b7:0x73a83e223ccd1b2b!8m2!3d39.7194285!4d-104.8974128"
+        },
+        {
+            "id": 2,
+            "restaurant": "Hacienda Colorado",
+            "name": "Queso Blanco",
+            "image": "https://www.eatingonadime.com/wp-content/uploads/2016/12/mexican-white-cheese-dip-square.jpg",
+            "description": "A white queso with roasted poblanos and pico. Served with warm tortilla chips",
+            "price": "$7",
+            "location": "https://www.google.com/maps/search/hacienda+colorado/@39.7270694,-104.9809858,11z/"
+        },
+        {
+            "id": 3,
+            "restaurant": "Torchy's Tacos",
+            "name": "Green Chile Queso",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/torchys_900x900.jpeg",
+            "description": "Award-winning green chile queso topped with guacamole, cotija, cilantro and Diablo sauce",
+            "price": "$6",
+            "location": "https://www.google.com/maps/search/torchy's+tacos/@39.7051953,-105.2656011,10z/data=!3m1!4b1"
+        },
+        {
+            "id": 4,
+            "restaurant": "Illegal Pete's",
+            "name": "Queso Dip",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/illegal_petes_900x900.jpeg",
+            "description": "Savory Queso dip. Careful, its habit forming.  Served with tortilla chips and fresh-made tortilla upon request",
+            "price": "$5",
+            "location": "https://www.google.com/maps/search/illegal+pete's/@39.7215774,-104.9963515,13z/data=!3m1!4b1"
+        },
+        {
+            "id": 5,
+            "restaurant": "Agave Taco Bar",
+            "name": "Guac and Queso Platter",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/agave__900x900.jpg ",
+            "description": "A combination platter of mild salsa, guacamole, and queso. Served with a basket of tortilla chips",
+            "price": "$12",
+            "location": "https://www.google.com/maps/place/Agave+Taco+Bar/@39.696705,-104.9634217,17z/data=!3m1!4b1!4m5!3m4!1s0x876c7e60b1bc8b5f:0x1bda3cf05c61a613!8m2!3d39.696705!4d-104.961233?hl=en"
+        },
+        {
+            "id": 6,
+            "restaurant": "El Commino Community Tavern",
+            "name": "Chile Con Queso",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/Screen_Shot_2021-04-20_at_9.35.54_PM_900x900.png ",
+            "description": "Secret blend of melted cheeses and veggie green chili, topped with pico de gallo ",
+            "price": "$10",
+            "location": "https://www.google.com/maps/place/El+Camino+Community+Tavern/@39.7629109,-105.039429,16.18z/data=!4m5!3m4!1s0x876b87632acd5fff:0x1e6ca02be2f7da01!8m2!3d39.7620472!4d-105.0354144"
+        },
+        {
+            "id": 7,
+            "restaurant": "Fuzzy's Taco Shop",
+            "name": "Queso with Beef",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/Screen_Shot_2021-04-20_at_9.45.50_PM_900x900.png ",
+            "description": "Basket of fresh tortilla chips seasoned with Fuzzy Dust, and served with Queso with Special Ground Beef.",
+            "price": "$5",
+            "location": "https://www.google.com/maps/search/fuzzys/@39.7214985,-105.1014161,11z/data=!3m1!4b1"
+        },
+        {
+            "id": 8,
+            "restaurant": "Chipoltle",
+            "name": "Chips and Queso Blanco",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/chipotlequeso_900x900.jpeg ",
+            "description": "Basket of fresh tortilla chips seasoned with Fuzzy Dust, and served with Queso with Special Ground Beef.",
+            "price": "$4",
+            "location": "https://www.google.com/maps/search/chipoltle/@39.6777598,-104.9792553,11.93z?hl=en"
+        },
+        {
+            "id": 9,
+            "restaurant": "Qdoba",
+            "name": "Chips and 3-Cheese Queso Dip",
+            "image": "http://www.simpleimageresizer.com/_uploads/photos/c6b663c4/qdoba_900x900.jpeg",
+            "description": "Basket of tortilla chips served with monterey jack, american, and cheddar cheeses. .",
+            "price": "$4",
+            "location": "https://www.google.com/maps/search/qdoba/@39.72169,-105.1021037,11z/data=!3m1!4b1"
+        }
+    ]
+}
