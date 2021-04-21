@@ -12,6 +12,7 @@ body {
   padding: 3rem;
   margin: 1rem;
   flex-wrap: wrap;
+  
 }
 
 
@@ -36,6 +37,7 @@ body {
 .card-img-top {
   transform: scale(1);
   transition: transform 1s ease;
+  border-radius: 20px;
 }
 
 .card-img-top:hover {
@@ -72,12 +74,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 700px;
+  width: 500px;
+  height: 500px;
   justify-content: center;
-  padding-top: 2em;
+  padding-top: 6em;
 }
 
-#carouselExampleInterval {
+
+.carousel-slide {
   display: flex;
   flex-direction: column;
   height: 200px;
@@ -172,6 +176,10 @@ body {
   
 }
 
+#new-favs {
+  border-radius: 30px;
+}
+
 
 .card-title-2 {
   justify-content: center;
@@ -192,3 +200,20 @@ padding: 30px;
 }
 
 
+h3 {
+  font-family: Pieces NFI;
+  color: #e5e5e5;
+  font-size: 1em;
+  text-shadow: 3px 3px #c18b16;
+}
+
+.card-slogan {
+  color: #e5e5e5;
+  text-shadow: 2px 2px #c18b16;
+}
+
+h4 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px #e5e5e5;
+}

@@ -1,6 +1,6 @@
-// import  Carousel  from './Carousel'
 import { Component } from 'react';
 import './App.css';
+import Carousel from './Carousel';
 import Favorites from './Favorites';
 import Logo from './Logo';
 
@@ -29,18 +29,24 @@ class App extends Component {
       })
     }
   }
+
+  removeFromFavorites = (clickedFavorite) => {
+    const newFavorites = this.state.favorites.filter(favorite => clickedFavorite.id !== favorite.id)
+    this.setState({ favorites: newFavorites })
+  }
   
   render() {
     return ( 
       <>
-      {/* <div className='carousel-container'>
-        <Carousel />
-      </div> */}
+
         <div className='logo-container'>
           <Logo />
         </div>
+        <div className='carousel-container'>
+          <Carousel />
+        </div>
         <div className="plate-container">
-          <Favorites favorites={this.state.favorites} />
+          <Favorites favorites={this.state.favorites} clickAction={this.removeFromFavorites}/>
         </div>
         <div className="container d-flex justify-content-center">
           <div className="row">

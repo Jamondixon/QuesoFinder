@@ -1,8 +1,13 @@
 import React from 'react'
 
-export default function NewFavoritesCard({queso}) {
+export default function NewFavoritesCard({queso, clickAction}) {
+
+    const handleClick = () => {
+        clickAction(queso)
+    }
+
     return (
-        <div className='new-favorites'>
+        <div className='new-favorites'  id="new-favs" onClick={handleClick}>
             <div className="card text-center" >
             <div className="overflow">
                 <img src={queso.image} alt='Melted Cheese' className="card-img-top"/>
