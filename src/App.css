@@ -243,8 +243,8 @@ h3 {
 }
 
 .card-slogan {
-  color: black;
-  text-shadow: 2px 2px #c18b16;
+  color: rgb(240, 195, 119);
+  text-shadow: 1px 1px black;
   font-size: 1.5em;
 }
 
