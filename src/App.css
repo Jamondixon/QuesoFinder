@@ -101,13 +101,23 @@ body {
   font-family: Pieces NFI;
   color: #e5e5e5;
   justify-content: center;
-  font-size: 7rem;
+  font-size: 8vw;
   padding-top: 1.5rem;
   text-shadow: 3px 3px #c18b16;
 }
 
+.child {
+  position: absolute;
+  top: 0em;
+  right: 1.8em;
+
+}
+
+.parent {
+  position: relative;
+}
+
 .price {
-  /* color: green; */
   padding-top: 0.4em;
   font-style: normal;
   font-weight: 300;
@@ -115,12 +125,37 @@ body {
   text-shadow: 1px 1px black;
   color: #e9c16a;
   font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin-left: 1.8em;
 }
 
+.price2 {
+  padding-top: 0.4em;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  text-shadow: 1px 1px black;
+  color: #e9c16a;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin-left: 1.8em;
+}
+
+
+
+
 .bi.bi-cash {
-  margin-bottom: -50px;
-  margin-top: -90px;
-  
+  justify-content: left;
+  margin-top: -20px;
+  float: left;
+  margin-left: 5.9em;
+}
+
+.bi.bi-thermometer-half {
+  justify-content: left;
+  margin-top: -20px;
+  float: right;
+  margin-right: 4em;
 }
 
 .plate-container {
@@ -208,8 +243,9 @@ h3 {
 }
 
 .card-slogan {
-  color: #e5e5e5;
+  color: black;
   text-shadow: 2px 2px #c18b16;
+  font-size: 1.5em;
 }
 
 h4 {

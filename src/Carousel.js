@@ -19,7 +19,7 @@ export default function Slider() {
                 <Carousel.Caption>
                 <h3 >Queso Blanco</h3>
                 <h4>Hacienda Colorado</h4>
-                <p className="card-slogan">Middle of the road with a middle of the road price, but HEY its still melted cheese..am I right?</p>
+                <p className="card-slogan">Middle of the road in taste and price, but HEY its still melted cheese..am I right?</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ export default function Slider() {
                 <Carousel.Caption>
                 <h3>Green Chile Queso</h3>
                 <h4>Torchy's Tacos</h4>
-                <p className="card-slogan">Workhorse. Always good, cheap, and accessible. However, it can be a little on the cold side  </p>
+                <p className="card-slogan">Workhorse. Always good, cheap, and accessible. Can be a little on the cold side  </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -69,7 +69,7 @@ export default function Slider() {
                 <Carousel.Caption>
                 <h3 >Queso Dip</h3>
                 <h4>Illegal Pete's</h4>
-                <p className="card-slogan">Great option for those who like to keep it SPICY! Awesome Margaritas to pair with it too</p>
+                <p className="card-slogan">Great option for those who keep it SPICY! Pairs well with some boozy Margaritas</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
