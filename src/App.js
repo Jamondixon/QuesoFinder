@@ -3,10 +3,10 @@ import './App.css';
 import Carousel from './Carousel';
 import Favorites from './Favorites';
 import Logo from './Logo';
-
-
 import QuesoContainer from './QuesoContainer';
-const baseURL = 'http://localhost:3000/quesos/';
+
+// const baseURL = 'http://localhost:3000/quesos';
+const baseURL = 'https://quesobackend.herokuapp.com/quesos';
 
 class App extends Component {
 

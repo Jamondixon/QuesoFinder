@@ -8,7 +8,7 @@ body {
 
 .card {
   
-  width: 30rem;
+  width: 30vw;
   padding: 3rem;
   margin: 1rem;
   flex-wrap: wrap;
@@ -80,7 +80,6 @@ body {
   padding-top: 6em;
 }
 
-
 .carousel-slide {
   display: flex;
   flex-direction: column;
@@ -93,7 +92,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-height: 4rem;
+  max-height: 5rem;
 }
 
 .logo {
@@ -126,7 +125,7 @@ body {
   color: #e9c16a;
   font-family: 'Roboto', sans-serif;
   text-align: left;
-  margin-left: 1.8em;
+  margin-left: 1.2em;
 }
 
 .price2 {
@@ -137,25 +136,8 @@ body {
   text-shadow: 1px 1px black;
   color: #e9c16a;
   font-family: 'Roboto', sans-serif;
-  text-align: left;
-  margin-left: 1.8em;
-}
-
-
-
-
-.bi.bi-cash {
-  justify-content: left;
-  margin-top: -20px;
-  float: left;
-  margin-left: 5.9em;
-}
-
-.bi.bi-thermometer-half {
-  justify-content: left;
-  margin-top: -20px;
-  float: right;
-  margin-right: 4em;
+  text-align: right;
+  margin-left: 1.2em;
 }
 
 .plate-container {
@@ -211,9 +193,6 @@ body {
   
 }
 
-#new-favs {
-  border-radius: 30px;
-}
 
 
 .card-title-2 {
@@ -234,13 +213,27 @@ div.card.text-center {
 padding: 30px;
 }
 
+.price-heading {
+  justify-content: left;
+  margin-top: 0;
+  float: left;
+  margin-left: 3em;
+}
+
+.spice-heading {
+  justify-content: left;
+  margin-top: 0;
+  float: right;
+  margin-right: 3em;
+}
 
 h3 {
   font-family: Pieces NFI;
   color: #e5e5e5;
-  font-size: 1em;
+  font-size: 20px;
   text-shadow: 3px 3px #c18b16;
 }
+
 
 .card-slogan {
   color: rgb(240, 195, 119);
