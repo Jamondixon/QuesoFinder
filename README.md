@@ -12,7 +12,7 @@ Moving from Texas to Colorado I had a rude awakening when it came to gettng my q
 
 ###Screenshot
 
-<img align="left" alt="screenshot" src="
+<img align="left" alt="screenshot" src="https://media1.giphy.com/media/rlJoOwrleuwyweSr3q/giphy.gif?cid=790b7611630fbfe5d092ec6c7e8f8b9a84c3790e6a237cb2&rid=giphy.gif&ct=g" />
 
 ###Demo
 
