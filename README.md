@@ -14,13 +14,15 @@ Moving from Texas to Colorado I had a rude awakening when it came to gettng my q
 
 <img align="left" alt="screenshot" src="https://media1.giphy.com/media/rlJoOwrleuwyweSr3q/giphy.gif?cid=790b7611630fbfe5d092ec6c7e8f8b9a84c3790e6a237cb2&rid=giphy.gif&ct=g" />
 
-### Demo
+## Demo
 
 ![Demo]https://youtu.be/qJsuCL0xBF8
 
 ### Technology Used
 
 <img align="left" alt="medium" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logocolor=black" />
+
+
 
 ### Code Example
 
@@ -42,13 +44,14 @@ Moving from Texas to Colorado I had a rude awakening when it came to gettng my q
     }
 ```
 
+
 ### Deployed
 
 ![Site]https://hopeful-raman-70b1e5.netlify.app/
 
 ### How to Use
 
-
+You can favorite and send your top queso picks to your plate by clicking anywhere on each card. You may also remove them from clicking on the card sitting on the plate.  Clicking on the button with the restaurant name will take you directly to a Google Map of the newarest locations.
 
 ### Restrictions
 
