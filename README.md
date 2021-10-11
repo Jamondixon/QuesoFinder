@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 303 QuesoFinder
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+### Description
 
-### `yarn start`
+SPA designed to showcase, rate, and point people in the direction of Denver’s best queso with links to each on google maps. Engineered user interface using React and React Bootstrap for a simple elegant design. Constructed a responsive view from any browser or screen size.  Animated with CSS for increased engagement.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `yarn test`
+### Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img align="left" alt="screenshot" src="https://media1.giphy.com/media/rlJoOwrleuwyweSr3q/giphy.gif?cid=790b7611630fbfe5d092ec6c7e8f8b9a84c3790e6a237cb2&rid=giphy.gif&ct=g" />
 
-### `yarn build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Motivation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Moving from Texas to Colorado I had a rude awakening when it came to gettng my queso fix.  Turns out it is not as much of a "thing" as it is in Texas. Having trouble finding restaurants with a quality product, I decided to create a web application to rate and provide links to find quesos around the city of Denver.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `yarn eject`
+## Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Demo]https://youtu.be/qJsuCL0xBF8
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Code Example
 
-## Learn More
+```    const displayPrice = () => {
+        if ((queso.price) <= 5){
+            return  "🤑"
+        }else if ((queso.price) >= 6 && (queso.price) <= 9){
+            return "🤑🤑"
+        }else if ((queso.price) >= 10){
+            return  "🤑🤑🤑"}
+    }
+    const displaySpicy = () => {
+        if ((queso.spicy) <= 3){
+            return  "🔥"
+        }else if ((queso.spicy) >= 4 && (queso.spicy) <= 6){
+            return "🔥🔥"
+        }else if ((queso.spicy) >= 7){
+            return  "🔥🔥🔥"}
+    }
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Deployed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Site]https://hopeful-raman-70b1e5.netlify.app/
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Technology Used
 
-### Making a Progressive Web App
+<img align="left" alt="medium" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logocolor=white" />
+<img align="left" alt="medium" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logocolor=black" />
+<img align="left" alt="medium" src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logocolor=black" />
+<img align="left" alt="medium" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logocolor=white" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+### How to Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can favorite and send your top queso picks to your plate by clicking anywhere on each card. You may also remove them from clicking on the card sitting on the plate.  Clicking on the button with the restaurant name will take you directly to a Google Map of the newarest locations.
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Restrictions
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Formatted to be responsive to web browsers, however it is not formatted for mobile devices.
