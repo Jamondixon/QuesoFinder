@@ -10,7 +10,7 @@ export default function QuesoContainer({ quesos, clickAction }) {
 
 
     return (
-        <Container className="d-flex" >
+        <Container className="d-flex m-3"  >
             <Row className="flex-lg-wrap">
                 <Col> {displayQuesos()}</Col>
             </Row>

@@ -12,10 +12,22 @@ body {
   padding: 3rem;
   margin: 1rem;
   flex-wrap: wrap;
-  
 }
 
-
+@media (max-width: 800px) {
+  .card {
+    width: 300px;
+  }
+  .price-heading {
+    font-size: 15px;
+  }
+  .spice-heading {
+    font-size: 15px;
+  }
+  #location {
+    font-size: 13px;
+  }
+}
 
 .card:hover {
   box-shadow: 10px 20px 100px 1px #ca9a43;
@@ -50,6 +62,7 @@ body {
   padding-top: 3rem;
   
 }
+
 .card-title {
   font-family: Pieces NFI;
   color: #ca9a43;
@@ -213,14 +226,14 @@ div.card.text-center {
 padding: 30px;
 }
 
-.price-heading {
+.price-heading-container {
   justify-content: left;
   margin-top: 0;
   float: left;
   margin-left: 3em;
 }
 
-.spice-heading {
+.spice-heading-container {
   justify-content: left;
   margin-top: 0;
   float: right;
@@ -246,3 +259,5 @@ h4 {
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px #e5e5e5;
 }
+
+

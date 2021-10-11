@@ -34,17 +34,17 @@ export default function QuesoCard({queso, clickAction}) {
                 <h1 className='card-title'>{queso.name}</h1>
                 <h2 className='card-restaurant'>{queso.restaurant}</h2>
                 <p className='card-description'>{queso.description}</p>
-                <a href={queso.location} className="btn btn-outline-primary">{queso.restaurant}</a>
+                <a href={queso.location} className="btn btn-outline-primary" id="location">{queso.restaurant}</a>
                 <div className='parent'>
                     <p className='price'>{displayPrice()}</p>
                     <div className='child'>
                         <p className='price2'>{displaySpicy()}</p>
                     </div>
-                    <div className='price-heading'>
-                        <h3>Price</h3>
+                    <div className='price-heading-container'>
+                        <h3 className="price-heading">Price</h3>
                     </div>
-                    <div className='spice-heading'>  
-                        <h3>Spice</h3>
+                    <div className='spice-heading-container'>  
+                        <h3 className="spice-heading">Spice</h3>
                     </div> 
                 </div>
 
