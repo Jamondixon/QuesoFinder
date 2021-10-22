@@ -12,7 +12,7 @@ export default function QuesoContainer({ quesos, clickAction }) {
     return (
         <Container className="d-flex m-3"  >
             <Row className="flex-lg-wrap">
-                <Col> {displayQuesos()}</Col>
+                <Col className="col-6"> {displayQuesos()}</Col>
             </Row>
         </Container>
             

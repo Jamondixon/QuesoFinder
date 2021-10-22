@@ -8,7 +8,7 @@ body {
 
 .card {
   
-  width: 30vw;
+  width: 370px;
   padding: 3rem;
   margin: 1rem;
   flex-wrap: wrap;
@@ -19,10 +19,10 @@ body {
     width: 300px;
   }
   .price-heading {
-    font-size: 15px;
+    font-size: 17px;
   }
   .spice-heading {
-    font-size: 15px;
+    font-size: 17px;
   }
   #location {
     font-size: 13px;
@@ -127,6 +127,7 @@ body {
 
 .parent {
   position: relative;
+  margin: .2em;
 }
 
 .price {
@@ -150,7 +151,8 @@ body {
   color: #e9c16a;
   font-family: 'Roboto', sans-serif;
   text-align: right;
-  margin-left: 1.2em;
+  margin-right: .2em;
+  
 }
 
 .plate-container {
